@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<character>
+  <name>Roscoe Full-Fifth Fool-Fists</name>
+  <race>Satyr</race>
+  <class>Bard (College of Eloquence) 17</class>
+  <level>17</level>
+  <background>Outlander</background>
+  <alignment>Chaotic Good</alignment>
+  <experience>0</experience>
+
+<proficiencybonus>6</proficiencybonus>
+
+<strength>11</strength>
+<dexterity>16</dexterity>
+<constitution>17</constitution>
+<intelligence>11</intelligence>
+<wisdom>12</wisdom>
+<charisma>20</charisma>
+
+  <savingthrows>
+    <strength>0</strength>
+    <dexterity>9</dexterity>
+    <constitution>3</constitution>
+    <intelligence>0</intelligence>
+    <wisdom>1</wisdom>
+    <charisma>11</charisma>
+  </savingthrows>
+
+  <skills>
+    <acrobatics>6</acrobatics>
+    <animalhandling>4</animalhandling>
+    <arcana>3</arcana>
+    <athletics>6</athletics>
+    <deception>17</deception>
+    <history>3</history>
+    <insight>7</insight>
+    <intimidation>11</intimidation>
+    <investigation>3</investigation>
+    <medicine>4</medicine>
+    <nature>3</nature>
+    <perception>7</perception>
+    <performance>17</performance>
+    <persuasion>17</persuasion>
+    <religion>3</religion>
+    <sleightofhand>6</sleightofhand>
+    <stealth>6</stealth>
+    <survival>7</survival>
+  </skills>
+
+<proficiencies>Light Armor, Simple Weapons, Hand Crossbows, Longswords, Rapiers, Shortswords, Musical Instruments, Saving Throw: Dexterity, Saving Throw: Charisma</proficiencies>
+
+<expertise>Persuasion, Deception, Performance</expertise>
+
+<languages>Common, Sylvan</languages>
+
+<ac>15</ac>
+<initiative>6</initiative>
+<speed>35</speed>
+
+<maxhp>151</maxhp>
+<currenthp>151</currenthp>
+<temphp>0</temphp>
+<hitdice>17d8</hitdice>
+
+<spellcastingability>Charisma</spellcastingability>
+<spellsavedc>19</spellsavedc>
+<spellattackbonus>11</spellattackbonus>
+
+  <spellslots>
+    <level1>4</level1>
+    <level2>3</level2>
+    <level3>3</level3>
+    <level4>3</level4>
+    <level5>2</level5>
+    <level6>1</level6>
+    <level7>1</level7>
+    <level8>1</level8>
+    <level9>1</level9>
+  </spellslots>
+
+  <spells>
+    <spell prepared="true">
+      <name>Vicious Mockery</name>
+      <level>0</level>
+      <school>Enchantment</school>
+      <time>1 action</time>
+      <range>60 feet</range>
+      <components>V</components>
+      <duration>Instantaneous</duration>
+      <text>WIS save or 4d4 psychic damage and disadvantage on next attack roll. Safe concentration action.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Minor Illusion</name>
+      <level>0</level>
+      <school>Illusion</school>
+      <time>1 action</time>
+      <range>30 feet</range>
+      <components>S, M</components>
+      <duration>1 minute</duration>
+      <text>Create a sound or image of an object. Investigation check to see through.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Mage Hand</name>
+      <level>0</level>
+      <school>Conjuration</school>
+      <time>1 action</time>
+      <range>30 feet</range>
+      <components>V, S</components>
+      <duration>1 minute</duration>
+      <text>Spectral hand manipulates objects up to 10 lb.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Prestidigitation</name>
+      <level>0</level>
+      <school>Transmutation</school>
+      <time>1 action</time>
+      <range>10 feet</range>
+      <components>V, S</components>
+      <duration>1 hour</duration>
+      <text>Minor magical tricks: sensory effects, clean/soil, light/snuff, flavor, trinkets.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Healing Word</name>
+      <level>1</level>
+      <school>Evocation</school>
+      <time>1 bonus action</time>
+      <range>60 feet</range>
+      <components>V</components>
+      <duration>Instantaneous</duration>
+      <text>1d4+5 healing. Upcast: +1d4 per level. PICK UP DOWNED ALLIES.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Faerie Fire</name>
+      <level>1</level>
+      <school>Evocation</school>
+      <time>1 action</time>
+      <range>60 feet</range>
+      <components>V</components>
+      <duration>Concentration, 1 minute</duration>
+      <text>20ft cube. DEX save or outlined in light. Attacks have ADVANTAGE against affected creatures. Negates invisibility.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Silvery Barbs</name>
+      <level>1</level>
+      <school>Enchantment</school>
+      <time>1 reaction</time>
+      <range>60 feet</range>
+      <components>V</components>
+      <duration>Instantaneous</duration>
+      <text>When creature succeeds on attack/check/save: force reroll, take lower. Give one ally advantage on next attack/check/save within 1 minute.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Hold Person</name>
+      <level>2</level>
+      <school>Enchantment</school>
+      <time>1 action</time>
+      <range>60 feet</range>
+      <components>V, S, M</components>
+      <duration>Concentration, 1 minute</duration>
+      <text>WIS save or PARALYZED (auto-crit in melee). Humanoids only. Repeat save at end of turn. Upcast: +1 target per level.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Suggestion</name>
+      <level>2</level>
+      <school>Enchantment</school>
+      <time>1 action</time>
+      <range>30 feet</range>
+      <components>V, M</components>
+      <duration>Concentration, 8 hours</duration>
+      <text>WIS save or follow a "reasonable" suggestion for duration. Social nuke.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Misty Step</name>
+      <level>2</level>
+      <school>Conjuration</school>
+      <time>1 bonus action</time>
+      <range>Self</range>
+      <components>V</components>
+      <duration>Instantaneous</duration>
+      <text>Teleport 30ft to visible unoccupied space. ESCAPE BUTTON.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Hypnotic Pattern</name>
+      <level>3</level>
+      <school>Illusion</school>
+      <time>1 action</time>
+      <range>120 feet</range>
+      <components>S, M</components>
+      <duration>Concentration, 1 minute</duration>
+      <text>30ft cube. WIS save or CHARMED + INCAPACITATED + speed 0. Ends if damaged or shaken awake. Encounter ender.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Counterspell</name>
+      <level>3</level>
+      <school>Abjuration</school>
+      <time>1 reaction</time>
+      <range>60 feet</range>
+      <components>S</components>
+      <duration>Instantaneous</duration>
+      <text>[MAGICAL SECRET] Auto-counter 3rd level or lower. Higher: ability check DC 10 + spell level. Your check: d20+8.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Haste</name>
+      <level>3</level>
+      <school>Transmutation</school>
+      <time>1 action</time>
+      <range>30 feet</range>
+      <components>V, S, M</components>
+      <duration>Concentration, 1 minute</duration>
+      <text>[MAGICAL SECRET] +2 AC, double speed, advantage on DEX saves, extra action (Attack/Dash/Disengage/Hide/Use Object). WARNING: If spell ends early, target can't move or act until end of next turn.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Aura of Vitality</name>
+      <level>3</level>
+      <school>Evocation</school>
+      <time>1 action</time>
+      <range>Self (30-foot radius)</range>
+      <components>V</components>
+      <duration>Concentration, 1 minute</duration>
+      <text>[MAGICAL SECRET] Bonus action: one creature in aura regains 2d6 HP. 20d6 total healing over 1 minute.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Greater Invisibility</name>
+      <level>4</level>
+      <school>Illusion</school>
+      <time>1 action</time>
+      <range>Touch</range>
+      <components>V, S</components>
+      <duration>Concentration, 1 minute</duration>
+      <text>Target invisible for duration. Doesn't end when attacking or casting. ALLY BUFF.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Dimension Door</name>
+      <level>4</level>
+      <school>Conjuration</school>
+      <time>1 action</time>
+      <range>500 feet</range>
+      <components>V</components>
+      <duration>Instantaneous</duration>
+      <text>Teleport 500ft to location you describe or visualize. Can bring one willing creature your size or smaller. EXTRACTION.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Find Greater Steed</name>
+      <level>4</level>
+      <school>Conjuration</school>
+      <time>10 minutes</time>
+      <range>30 feet</range>
+      <components>V, S</components>
+      <duration>Instantaneous</duration>
+      <text>[MAGICAL SECRET] Summon Pegasus (90ft fly). Telepathic bond. Self-targeting spells affect mount. Permanent until killed.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Hold Monster</name>
+      <level>5</level>
+      <school>Enchantment</school>
+      <time>1 action</time>
+      <range>90 feet</range>
+      <components>V, S, M</components>
+      <duration>Concentration, 1 minute</duration>
+      <text>WIS save or PARALYZED. Works on ANY creature. Repeat save at end of turn. Combo with Unsettling Words.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Greater Restoration</name>
+      <level>5</level>
+      <school>Abjuration</school>
+      <time>1 action</time>
+      <range>Touch</range>
+      <components>V, S, M (100gp diamond dust)</components>
+      <duration>Instantaneous</duration>
+      <text>End: charmed, petrified, curse, ability score reduction, HP max reduction.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Mass Suggestion</name>
+      <level>6</level>
+      <school>Enchantment</school>
+      <time>1 action</time>
+      <range>60 feet</range>
+      <components>V, M</components>
+      <duration>24 hours</duration>
+      <text>Up to 12 creatures. WIS save or follow reasonable suggestion. NO CONCENTRATION.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Forcecage</name>
+      <level>7</level>
+      <school>Evocation</school>
+      <time>1 action</time>
+      <range>100 feet</range>
+      <components>V, S, M (1500gp ruby dust)</components>
+      <duration>1 hour</duration>
+      <text>10ft cage (bars) or 20ft cube (solid walls). NO SAVE. Teleport out requires DC 19 CHA save.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Glibness</name>
+      <level>8</level>
+      <school>Transmutation</school>
+      <time>1 action</time>
+      <range>Self</range>
+      <components>V</components>
+      <duration>1 hour</duration>
+      <text>Replace any CHA check roll with 15. Persuasion/Deception FLOOR 32. Magic detects you as truthful.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Mind Blank</name>
+      <level>8</level>
+      <school>Abjuration</school>
+      <time>1 action</time>
+      <range>Touch</range>
+      <components>V, S</components>
+      <duration>24 hours</duration>
+      <text>IMMUNE to psychic damage, divination, charm, and creature-detecting effects. HELL ESSENTIAL.</text>
+    </spell>
+    <spell prepared="true">
+      <name>Foresight</name>
+      <level>9</level>
+      <school>Divination</school>
+      <time>1 minute</time>
+      <range>Touch</range>
+      <components>V, S, M</components>
+      <duration>8 hours</duration>
+      <text>Can't be surprised. Advantage on attacks, checks, saves. Enemies have disadvantage vs target. NO CONCENTRATION. Cast on Fighter daily.</text>
+    </spell>
+  </spells>
+
+  <features>
+    <feature>
+      <name>Satyr: Fey</name>
+      <text>Your creature type is fey, rather than humanoid. You are immune to spells that only affect humanoids (Hold Person, Charm Person, Dominate Person, etc.).</text>
+    </feature>
+    <feature>
+      <name>Satyr: Magic Resistance</name>
+      <text>You have advantage on saving throws against spells and other magical effects.</text>
+    </feature>
+    <feature>
+      <name>Satyr: Mirthful Leaps</name>
+      <text>Whenever you make a long or high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump.</text>
+    </feature>
+    <feature>
+      <name>Satyr: Ram</name>
+      <text>You can use your head and horns to make unarmed strikes. When you hit with them, you deal 1d4 + STR bludgeoning damage.</text>
+    </feature>
+    <feature>
+      <name>Bardic Inspiration (d20)</name>
+      <text>5 uses per short rest. Bonus action, 60ft, give one creature an Inspiration die. Within 10 minutes, they can add d20 to one ability check, attack roll, or saving throw. With Soulstring Banjo, your die is a d20 instead of d12.</text>
+    </feature>
+    <feature>
+      <name>Jack of All Trades</name>
+      <text>Add +3 (half proficiency) to any ability check that doesn't already include your proficiency bonus. Includes initiative and Counterspell checks.</text>
+    </feature>
+    <feature>
+      <name>Song of Rest (d12)</name>
+      <text>During short rest, if you or allies spend Hit Dice, each regains extra 1d12 HP.</text>
+    </feature>
+    <feature>
+      <name>Expertise</name>
+      <text>Double proficiency bonus for Persuasion, Deception, Performance (and one more).</text>
+    </feature>
+    <feature>
+      <name>UNSETTLING WORDS</name>
+      <text>**BONUS ACTION.** Spend 1 Bardic Inspiration. Target within 60ft subtracts your Inspiration die (d20) from their NEXT SAVING THROW before your next turn. USE BEFORE HOLD MONSTER.</text>
+    </feature>
+    <feature>
+      <name>Silver Tongue</name>
+      <text>When you roll a Persuasion or Deception check, treat any roll of 9 or lower as a 10. Your floor is 10 + 17 = 27.</text>
+    </feature>
+    <feature>
+      <name>Unfailing Inspiration</name>
+      <text>When an ally uses your Bardic Inspiration and still fails the roll, they keep the Inspiration die.</text>
+    </feature>
+    <feature>
+      <name>Universal Speech</name>
+      <text>Action. Choose up to CHA mod (5) creatures within 60ft. For 1 hour, they understand you regardless of language. 1/long rest or spend spell slot.</text>
+    </feature>
+    <feature>
+      <name>Infectious Inspiration</name>
+      <text>Reaction. When ally within 60ft uses Bardic Inspiration and SUCCEEDS, you can give a different creature within 60ft a Bardic Inspiration die without expending a use. CHA mod (5) times per long rest.</text>
+    </feature>
+    <feature>
+      <name>Magical Secrets (L10)</name>
+      <text>Counterspell, Find Greater Steed</text>
+    </feature>
+    <feature>
+      <name>Magical Secrets (L14)</name>
+      <text>Haste, Aura of Vitality</text>
+    </feature>
+    <feature>
+      <name>Countercharm</name>
+      <text>Action. For 1 minute, you and allies within 30ft have advantage on saves vs frightened and charmed. Must hear you, concentration.</text>
+    </feature>
+  </features>
+
+  <equipment>
+    <item>
+      <name>Soulstring Banjo (Artifact)</name>
+      <text>TWO SOULS, ONE SONG: Bardic Inspiration die becomes d20.
+
+CRESCENDO OF SOULS (1/day): Action. 60ft radius. 8d8 thunder damage. DC 19 CON save or STUNNED 1 round.
+
+SOUL RESONANCE (1/day): If incapacitated, Fifth acts for you for 1 minute.
+
+HARMONIC SHIELD: Advantage on saves vs charm, fear, psychic damage.
+
+DAILY SPELLS (2/day each, no slots): Fly, Invisibility, Levitate, Protection from Energy, Cure Wounds (3rd level, 3d8+5), Dispel Magic.
+
+UNBREAKABLE BOND: Cannot be destroyed. Returns if more than 100ft away.</text>
+</item>
+<item>
+<name>Resonance Key (Legendary)</name>
+<text>Requires Soulstring Banjo.
+
+SOUL SPEECH: Fifth can speak words, not just emotions.
+
+AMPLIFIED INSPIRATION (1/day): Next Bardic Inspiration = d20+10 (min 11, max 30).
+
+AMPLIFIED CRESCENDO (1/day): Crescendo becomes 120ft radius, 12d8 thunder, stun 2 rounds.</text>
+</item>
+<item>
+<name>Leather Armor</name>
+<text>AC 11 + DEX (14 base)</text>
+</item>
+<item>
+<name>Dagger</name>
+<text>1d4 piercing. Finesse, light, thrown (20/60).</text>
+</item>
+<item>
+<name>Component Pouch</name>
+<text>Spell components.</text>
+</item>
+</equipment>
+
+<notes>CHARACTER CONCEPT: “Two Souls, One Song” — The satyr bard who carries a willing soul in his banjo. Fifth chose to stay.
+
+DAILY ROUTINE:
+
+1. Morning: Foresight on Fighter (9th slot)
+1. Morning: Mind Blank on self (8th slot)
+1. Before social: Glibness (8th slot, 1hr)
+
+COMBAT COMBO:
+
+1. BA: Unsettling Words (target subtracts d20 from next save)
+1. Action: Hold Monster (WIS save at massive penalty)
+1. Fighter auto-crits paralyzed target
+
+ROUND 1 DEFAULT:
+
+- Action: Haste on Fighter
+- BA: Bardic Inspiration to Cleric
+
+REACTIONS:
+
+- Counterspell (enemy casts dangerous spell)
+- Silvery Barbs (enemy succeeds on save)
+- Cutting Words (enemy about to hit)
+
+HELL NOTES:
+
+- Amulet of Veiled Presence: Devils can’t read mind/detect lies (CONFISCATED)
+- Scale of Sardior: Dominate Dragon 1/day (CONFISCATED)
+- Mahadi’s Coin: Contact rakshasa across planes (CONFISCATED)
+
+“Babe, it’s my nature.”</notes>
+
+<personality>Smooth-talking, laid-back Southern charm. Protective of friends. Plays music because it’s who he is, not for reward.</personality>
+<ideals>Freedom. Music. Loyalty to those who earn it.</ideals>
+<bonds>Fifth—the soul in the banjo. The party. The music itself.</bonds>
+<flaws>Can’t resist a stage. Sometimes too clever for his own good.</flaws>
+</character>
