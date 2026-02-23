@@ -1,121 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<compendium version="5">
-<character>
-<name>Roscoe Full-Fifth Fool-Fists</name>
-<race>Satyr</race>
-<subrace></subrace>
-<size>M</size>
-<type>fey</type>
-<alignment>Chaotic Good</alignment>
-<str>11</str>
-<dex>16</dex>
-<con>17</con>
-<int>11</int>
-<wis>12</wis>
-<cha>20</cha>
-<background>Outlander</background>
-<level>17</level>
-<class>Bard (College of Eloquence)</class>
-<hd>17</hd>
-<hp>151</hp>
-<speed>35</speed>
-<proficiency>6</proficiency>
-<ac>15</ac>
-<init>6</init>
-<pp>17</pp>
-<sv>Dexterity +9, Charisma +11</sv>
-<skill>Acrobatics +6, Athletics +6, Deception +17, Insight +7, Intimidation +11, Perception +7, Performance +17, Persuasion +17, Survival +7</skill>
-<languages>Common, Sylvan</languages>
-<prof>Light Armor, Simple Weapons, Hand Crossbows, Longswords, Rapiers, Shortswords, Musical Instruments</prof>
-<slots>4,3,3,3,2,1,1,1,1</slots>
-<spelldc>19</spelldc>
-<spellatk>11</spellatk>
-<spellclass>Bard</spellclass>
-<spellability>Charisma</spellability>
-<trait>
-<name>Magic Resistance (Satyr)</name>
-<text>Advantage on saving throws against spells and magical effects.</text>
-</trait>
-<trait>
-<name>Fey Creature (Satyr)</name>
-<text>Your creature type is fey. Immune to Hold Person, Charm Person, Dominate Person, and other humanoid-only effects.</text>
-</trait>
-<trait>
-<name>Mirthful Leaps (Satyr)</name>
-<text>Add 1d8 to any long or high jump distance.</text>
-</trait>
-<trait>
-<name>UNSETTLING WORDS</name>
-<text>Bonus Action. Spend 1 Bardic Inspiration. Target within 60ft subtracts your Inspiration die (d20) from their NEXT SAVING THROW. COMBO STARTER.</text>
-</trait>
-<trait>
-<name>Silver Tongue</name>
-<text>Treat rolls of 9 or lower on Persuasion/Deception as 10. Your floor = 27.</text>
-</trait>
-<trait>
-<name>Unfailing Inspiration</name>
-<text>Ally uses Inspiration and fails? They keep the die.</text>
-</trait>
-<trait>
-<name>Universal Speech</name>
-<text>Action, 1/LR or spell slot. Up to 5 creatures understand you for 1 hour.</text>
-</trait>
-<trait>
-<name>Infectious Inspiration</name>
-<text>Reaction. Ally succeeds with Inspiration? Give another ally Inspiration (5/LR).</text>
-</trait>
-<trait>
-<name>Bardic Inspiration (d20)</name>
-<text>5/short rest. Bonus action, 60ft. Ally adds d20 to attack/check/save within 10 min. (d20 from Soulstring Banjo)</text>
-</trait>
-<trait>
-<name>Jack of All Trades</name>
-<text>+3 to ability checks without proficiency (including initiative and Counterspell).</text>
-</trait>
-<trait>
-<name>Countercharm</name>
-<text>Action. 1 minute. You and allies within 30ft have advantage vs frightened/charmed.</text>
-</trait>
-<trait>
-<name>Song of Rest (d12)</name>
-<text>Short rest: allies spending Hit Dice regain extra 1d12 HP.</text>
-</trait>
-<trait>
-<name>Magical Secrets</name>
-<text>L10: Counterspell, Find Greater Steed. L14: Haste, Aura of Vitality.</text>
-</trait>
-<trait>
-<name>Soulstring Banjo (Artifact)</name>
-<text>Inspiration = d20. Crescendo 1/day: 60ft 8d8 thunder DC19 stun. Soul Resonance 1/day. Harmonic Shield: adv vs charm/fear/psychic. 2/day each: Fly, Invisibility, Levitate, Prot Energy, Cure 3rd, Dispel.</text>
-</trait>
-<trait>
-<name>Resonance Key</name>
-<text>Amplified Inspiration 1/day: d20+10. Amplified Crescendo 1/day: 120ft 12d8 stun 2 rounds. Fifth speaks words.</text>
-</trait>
-<spell><name>Vicious Mockery</name></spell>
-<spell><name>Minor Illusion</name></spell>
-<spell><name>Mage Hand</name></spell>
-<spell><name>Prestidigitation</name></spell>
-<spell><name>Healing Word</name></spell>
-<spell><name>Faerie Fire</name></spell>
-<spell><name>Silvery Barbs</name></spell>
-<spell><name>Hold Person</name></spell>
-<spell><name>Suggestion</name></spell>
-<spell><name>Misty Step</name></spell>
-<spell><name>Hypnotic Pattern</name></spell>
-<spell><name>Counterspell</name></spell>
-<spell><name>Haste</name></spell>
-<spell><name>Aura of Vitality</name></spell>
-<spell><name>Greater Invisibility</name></spell>
-<spell><name>Dimension Door</name></spell>
-<spell><name>Find Greater Steed</name></spell>
-<spell><name>Hold Monster</name></spell>
-<spell><name>Greater Restoration</name></spell>
-<spell><name>Mass Suggestion</name></spell>
-<spell><name>Forcecage</name></spell>
-<spell><name>Glibness</name></spell>
-<spell><name>Mind Blank</name></spell>
-<spell><name>Foresight</name></spell>
-</character>
-</compendium>
+<pc version="5">
+<character><version>1</version><uid>2001</uid><name>Roscoe Full-Fifth Fool-Fists</name><race><source>0</source><name>Satyr</name><speed>35</speed><age>45</age><height>5</height><weight>150</weight><eyes>Gold</eyes><skin>Tan</skin><hair>Brown</hair><feat><name>Fey</name><text>Your creature type is fey, rather than humanoid. You are immune to spells that only affect humanoids (Hold Person, Charm Person, Dominate Person, etc.).</text><expanded>0</expanded></feat><feat><name>Magic Resistance</name><text>You have advantage on saving throws against spells and other magical effects.</text><expanded>0</expanded></feat><feat><name>Mirthful Leaps</name><text>Whenever you make a long or high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump.</text><expanded>0</expanded></feat><feat><name>Ram</name><text>You can use your head and horns to make unarmed strikes. When you hit, you deal 1d4 + STR bludgeoning damage.</text><expanded>0</expanded></feat><feat><name>Languages</name><text>You can speak, read, and write Common and Sylvan.</text><expanded>0</expanded></feat><mod><category>1</category><type>5</type><value>2</value></mod><mod><category>1</category><type>1</type><value>1</value></mod></race><class><source>0</source><id>1002</id><name>Bard (College of Eloquence)</name><level>17</level><hd>2</hd><hdCurrent>17</hdCurrent><wealth>0</wealth><proficiency>1</proficiency><proficiency>111</proficiency><proficiency>5</proficiency><proficiency>112</proficiency><proficiency>113</proficiency><numClassSkills>3</numClassSkills><armor>Light armor</armor><weapons>Simple weapons, hand crossbows, longswords, rapiers, shortswords</weapons><tools>Three musical instruments of your choice</tools><slots>4,3,3,3,2,1,1,1,1,</slots><slotsCurrent>4,3,3,3,2,1,1,1,1,</slotsCurrent><feat><name>Bardic Inspiration (d20)</name><text>You can inspire others through stirring words or music. Bonus action, choose one creature within 60 feet who can hear you. That creature gains one Bardic Inspiration die (d20 with Soulstring Banjo).
+    You can use this feature 5 times per short rest (CHA modifier).</text><expanded>0</expanded></feat><feat><name>UNSETTLING WORDS</name><text>BONUS ACTION. Spend 1 Bardic Inspiration. Target within 60ft subtracts your Inspiration die (d20) from their NEXT SAVING THROW before your next turn. USE BEFORE HOLD MONSTER.</text><expanded>0</expanded></feat><feat><name>Silver Tongue</name><text>When you make a Persuasion or Deception check, treat any roll of 9 or lower as a 10. Your minimum result is 27.</text><expanded>0</expanded></feat><feat><name>Unfailing Inspiration</name><text>When an ally uses your Bardic Inspiration die and still fails the ability check, attack roll, or saving throw, they keep the Inspiration die.</text><expanded>0</expanded></feat><feat><name>Universal Speech</name><text>Action. Choose up to 5 creatures within 60 feet. For 1 hour, they magically understand you regardless of language. 1/long rest or expend a spell slot.</text><expanded>0</expanded></feat><feat><name>Infectious Inspiration</name><text>Reaction. When a creature within 60 feet uses your Bardic Inspiration and succeeds, you can give another creature within 60 feet a Bardic Inspiration die without expending a use. 5 times per long rest.</text><expanded>0</expanded></feat><feat><name>Jack of All Trades</name><text>Add +3 (half proficiency) to any ability check that doesn't already include your proficiency bonus. Includes initiative and Counterspell checks.</text><expanded>0</expanded><special>3</special></feat><feat><name>Song of Rest (d12)</name><text>During a short rest, if you or allies spend Hit Dice to regain HP, each regains an extra 1d12 HP.</text><expanded>0</expanded></feat><feat><name>Expertise</name><text>Double proficiency bonus for: Persuasion, Deception, Performance, Perception.</text><expanded>0</expanded></feat><feat><name>Countercharm</name><text>Action. For 1 minute, you and friendly creatures within 30 feet have advantage on saving throws against being frightened or charmed.</text><expanded>0</expanded></feat><feat><name>Magical Secrets (L10)</name><text>Counterspell, Find Greater Steed</text><expanded>0</expanded></feat><feat><name>Magical Secrets (L14)</name><text>Haste, Aura of Vitality</text><expanded>0</expanded></feat><feat><name>Soulstring Banjo (Artifact)</name><text>TWO SOULS, ONE SONG: Bardic Inspiration = d20.
+CRESCENDO OF SOULS (1/day): Action. 60ft radius. 8d8 thunder. DC 19 CON or STUNNED 1 round.
+SOUL RESONANCE (1/day): If incapacitated, Fifth acts for 1 minute.
+HARMONIC SHIELD: Advantage vs charm, fear, psychic.
+DAILY SPELLS (2/day each): Fly, Invisibility, Levitate, Protection from Energy, Cure Wounds 3rd (3d8+5), Dispel Magic.</text><expanded>0</expanded></feat><feat><name>Resonance Key</name><text>AMPLIFIED INSPIRATION (1/day): Next Inspiration = d20+10.
+AMPLIFIED CRESCENDO (1/day): 120ft, 12d8 thunder, stun 2 rounds.
+SOUL SPEECH: Fifth speaks words.</text><expanded>0</expanded></feat><spellAbility>5</spellAbility><spell><source>0</source><name>Vicious Mockery</name><school>4</school><time>1 action</time><range>60 feet</range><v>1</v><duration>Instantaneous</duration><text>WIS save or 4d4 psychic damage and disadvantage on next attack roll. SAFE CONCENTRATION ACTION.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Minor Illusion</name><school>6</school><time>1 action</time><range>30 feet</range><s>1</s><m>1</m><materials>a bit of fleece</materials><duration>1 minute</duration><text>Create a sound or image of an object (max 5ft cube). Investigation check to see through.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Mage Hand</name><school>2</school><time>1 action</time><range>30 feet</range><v>1</v><s>1</s><duration>1 minute</duration><text>Spectral hand manipulates objects up to 10 lb.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Prestidigitation</name><school>8</school><time>1 action</time><range>10 feet</range><v>1</v><s>1</s><duration>Up to 1 hour</duration><text>Minor magical tricks: sensory effects, clean/soil, light/snuff, flavor, trinkets.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Healing Word</name><school>5</school><level>1</level><time>1 bonus action</time><range>60 feet</range><v>1</v><duration>Instantaneous</duration><text>1d4+5 healing. Upcast: +1d4 per level. PICK UP DOWNED ALLIES.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Faerie Fire</name><school>5</school><level>1</level><time>1 action</time><range>60 feet</range><v>1</v><duration>Concentration, up to 1 minute</duration><text>20ft cube. DEX save or outlined. Attacks have ADVANTAGE. Negates invisibility.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Silvery Barbs</name><school>4</school><level>1</level><time>1 reaction</time><range>60 feet</range><v>1</v><duration>Instantaneous</duration><text>When creature succeeds on attack/check/save: force reroll, take lower. Give one ally advantage on next roll within 1 minute.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Hold Person</name><school>4</school><level>2</level><time>1 action</time><range>60 feet</range><v>1</v><s>1</s><m>1</m><duration>Concentration, up to 1 minute</duration><text>WIS save or PARALYZED (auto-crit in melee). Humanoids only. Repeat save end of turn.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Suggestion</name><school>4</school><level>2</level><time>1 action</time><range>30 feet</range><v>1</v><m>1</m><duration>Concentration, up to 8 hours</duration><text>WIS save or follow a "reasonable" suggestion. Social nuke.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Misty Step</name><school>2</school><level>2</level><time>1 bonus action</time><range>Self</range><v>1</v><duration>Instantaneous</duration><text>Teleport 30ft to visible unoccupied space. ESCAPE BUTTON.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Hypnotic Pattern</name><school>6</school><level>3</level><time>1 action</time><range>120 feet</range><s>1</s><m>1</m><duration>Concentration, up to 1 minute</duration><text>30ft cube. WIS save or CHARMED + INCAPACITATED + speed 0. Ends if damaged or shaken.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Counterspell</name><school>1</school><level>3</level><time>1 reaction</time><range>60 feet</range><s>1</s><duration>Instantaneous</duration><text>[MAGICAL SECRET] Auto-counter 3rd or lower. Higher: ability check d20+8 vs DC 10+level.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Haste</name><school>8</school><level>3</level><time>1 action</time><range>30 feet</range><v>1</v><s>1</s><m>1</m><duration>Concentration, up to 1 minute</duration><text>[MAGICAL SECRET] +2 AC, double speed, advantage DEX saves, extra Attack action. IF DROPS = TARGET LOSES TURN.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Aura of Vitality</name><school>5</school><level>3</level><time>1 action</time><range>Self (30-foot radius)</range><v>1</v><duration>Concentration, up to 1 minute</duration><text>[MAGICAL SECRET] Bonus action: one creature in aura regains 2d6 HP. 20d6 total over 1 min.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Greater Invisibility</name><school>6</school><level>4</level><time>1 action</time><range>Touch</range><v>1</v><s>1</s><duration>Concentration, up to 1 minute</duration><text>Target invisible for duration. Doesn't end when attacking or casting.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Dimension Door</name><school>2</school><level>4</level><time>1 action</time><range>500 feet</range><v>1</v><duration>Instantaneous</duration><text>Teleport 500ft + one willing creature your size or smaller. EXTRACTION.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Find Greater Steed</name><school>2</school><level>4</level><time>10 minutes</time><range>30 feet</range><v>1</v><s>1</s><duration>Instantaneous</duration><text>[MAGICAL SECRET] Summon Pegasus (90ft fly). Telepathic bond. Self-spells affect mount. Permanent until killed.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Hold Monster</name><school>4</school><level>5</level><time>1 action</time><range>90 feet</range><v>1</v><s>1</s><m>1</m><duration>Concentration, up to 1 minute</duration><text>WIS save or PARALYZED. Works on ANY creature. Combo with Unsettling Words.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Greater Restoration</name><school>1</school><level>5</level><time>1 action</time><range>Touch</range><v>1</v><s>1</s><m>1</m><materials>diamond dust worth 100 gp</materials><duration>Instantaneous</duration><text>End: charmed, petrified, curse, ability reduction, HP max reduction.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Mass Suggestion</name><school>4</school><level>6</level><time>1 action</time><range>60 feet</range><v>1</v><m>1</m><duration>24 hours</duration><text>Up to 12 creatures. WIS save or follow suggestion. NO CONCENTRATION.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Forcecage</name><school>5</school><level>7</level><time>1 action</time><range>100 feet</range><v>1</v><s>1</s><m>1</m><materials>ruby dust worth 1,500 gp</materials><duration>1 hour</duration><text>10ft cage or 20ft cube. NO SAVE. Teleport out = DC 19 CHA save.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Glibness</name><school>8</school><level>8</level><time>1 action</time><range>Self</range><v>1</v><duration>1 hour</duration><text>Replace any CHA check roll with 15. Persuasion/Deception FLOOR 32. Magic detects you as truthful.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Mind Blank</name><school>1</school><level>8</level><time>1 action</time><range>Touch</range><v>1</v><s>1</s><duration>24 hours</duration><text>IMMUNE to psychic damage, divination, charm, creature-detection. HELL ESSENTIAL.</text><sclass>Bard</sclass></spell><spell><source>0</source><name>Foresight</name><school>3</school><level>9</level><time>1 minute</time><range>Touch</range><v>1</v><s>1</s><m>1</m><materials>a hummingbird feather</materials><duration>8 hours</duration><text>Can't be surprised. Advantage on attacks, checks, saves. Enemies have disadvantage. NO CONCENTRATION. Cast on Fighter daily.</text><sclass>Bard</sclass></spell></class><background><source>0</source><name>Outlander</name><align>Chaotic Good</align><personality>Smooth-talking Southern charm. Laid-back but sharp.</personality><ideals>Freedom. Music. Loyalty to those who earn it.</ideals><bonds>Fifth—the soul in the banjo. The party. The music itself.</bonds><flaws>Can't resist a stage. Sometimes too clever for his own good.</flaws><feat><name>Wanderer</name><text>You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.</text><expanded>0</expanded></feat><proficiency>102</proficiency><proficiency>118</proficiency></background>
+<unarmed>1</unarmed><money>100</money><slots>4,3,3,3,2,1,1,1,1,</slots><slotsCurrent>4,3,3,3,2,1,1,1,1,</slotsCurrent><feat><name>COMBAT COMBO</name><text>1. BA: UNSETTLING WORDS (target subtracts d20 from next save)
+2. Action: HOLD MONSTER (WIS save at massive penalty)
+3. Fighter auto-crits the paralyzed target
+
+ROUND 1 DEFAULT:
+
+- Action: Haste on Fighter
+- BA: Bardic Inspiration to Cleric
+
+REACTIONS:
+
+- Counterspell (enemy casts)
+- Silvery Barbs (enemy saves)
+- Cutting Words (enemy hits)</text></feat><feat><name>DAILY ROUTINE</name><text>MORNING:
+
+1. Foresight on Fighter (9th slot, 8 hours)
+1. Mind Blank on self (8th slot, 24 hours)
+
+BEFORE SOCIAL:
+
+- Glibness (8th slot, 1 hour, floor 32)</text></feat><item><source>0</source><name>Leather Armor</name><type>1</type><slot>5</slot><quantity>1</quantity><value>10.0</value><weight>10.0</weight><ac>11</ac></item><item><source>0</source><name>Soulstring Banjo</name><type>0</type><slot>2</slot><quantity>1</quantity><value>0</value><weight>3.0</weight></item><item><source>0</source><name>Resonance Key</name><type>0</type><slot>0</slot><quantity>1</quantity><value>0</value><weight>0.5</weight></item><item><source>0</source><name>Dagger</name><type>5</type><slot>2</slot><quantity>2</quantity><value>2.0</value><weight>1.0</weight><damage1H>1d4</damage1H><damageType>2</damageType><weaponProperty>516</weaponProperty><weaponRange>20</weaponRange><weaponLongRange>60</weaponLongRange></item><item><source>0</source><name>Component Pouch</name><type>0</type><quantity>1</quantity><value>25.0</value><weight>2.0</weight></item><abilities>11,16,17,11,12,20,</abilities><hpMax>151</hpMax><hpCurrent>151</hpCurrent></character></pc>
