@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<compendium version="5">
+<character>
+<name>Roscoe Full-Fifth Fool-Fists</name>
+<race>Satyr</race>
+<subrace></subrace>
+<size>M</size>
+<type>fey</type>
+<alignment>Chaotic Good</alignment>
+<str>11</str>
+<dex>16</dex>
+<con>17</con>
+<int>11</int>
+<wis>12</wis>
+<cha>20</cha>
+<background>Outlander</background>
+<level>17</level>
+<class>Bard (College of Eloquence)</class>
+<hd>17</hd>
+<hp>151</hp>
+<speed>35</speed>
+<proficiency>6</proficiency>
+<ac>15</ac>
+<init>6</init>
+<pp>17</pp>
+<sv>Dexterity +9, Charisma +11</sv>
+<skill>Acrobatics +6, Athletics +6, Deception +17, Insight +7, Intimidation +11, Perception +7, Performance +17, Persuasion +17, Survival +7</skill>
+<languages>Common, Sylvan</languages>
+<prof>Light Armor, Simple Weapons, Hand Crossbows, Longswords, Rapiers, Shortswords, Musical Instruments</prof>
+<slots>4,3,3,3,2,1,1,1,1</slots>
+<spelldc>19</spelldc>
+<spellatk>11</spellatk>
+<spellclass>Bard</spellclass>
+<spellability>Charisma</spellability>
+<trait>
+<name>Magic Resistance (Satyr)</name>
+<text>Advantage on saving throws against spells and magical effects.</text>
+</trait>
+<trait>
+<name>Fey Creature (Satyr)</name>
+<text>Your creature type is fey. Immune to Hold Person, Charm Person, Dominate Person, and other humanoid-only effects.</text>
+</trait>
+<trait>
+<name>Mirthful Leaps (Satyr)</name>
+<text>Add 1d8 to any long or high jump distance.</text>
+</trait>
+<trait>
+<name>UNSETTLING WORDS</name>
+<text>Bonus Action. Spend 1 Bardic Inspiration. Target within 60ft subtracts your Inspiration die (d20) from their NEXT SAVING THROW. COMBO STARTER.</text>
+</trait>
+<trait>
+<name>Silver Tongue</name>
+<text>Treat rolls of 9 or lower on Persuasion/Deception as 10. Your floor = 27.</text>
+</trait>
+<trait>
+<name>Unfailing Inspiration</name>
+<text>Ally uses Inspiration and fails? They keep the die.</text>
+</trait>
+<trait>
+<name>Universal Speech</name>
+<text>Action, 1/LR or spell slot. Up to 5 creatures understand you for 1 hour.</text>
+</trait>
+<trait>
+<name>Infectious Inspiration</name>
+<text>Reaction. Ally succeeds with Inspiration? Give another ally Inspiration (5/LR).</text>
+</trait>
+<trait>
+<name>Bardic Inspiration (d20)</name>
+<text>5/short rest. Bonus action, 60ft. Ally adds d20 to attack/check/save within 10 min. (d20 from Soulstring Banjo)</text>
+</trait>
+<trait>
+<name>Jack of All Trades</name>
+<text>+3 to ability checks without proficiency (including initiative and Counterspell).</text>
+</trait>
+<trait>
+<name>Countercharm</name>
+<text>Action. 1 minute. You and allies within 30ft have advantage vs frightened/charmed.</text>
+</trait>
+<trait>
+<name>Song of Rest (d12)</name>
+<text>Short rest: allies spending Hit Dice regain extra 1d12 HP.</text>
+</trait>
+<trait>
+<name>Magical Secrets</name>
+<text>L10: Counterspell, Find Greater Steed. L14: Haste, Aura of Vitality.</text>
+</trait>
+<trait>
+<name>Soulstring Banjo (Artifact)</name>
+<text>Inspiration = d20. Crescendo 1/day: 60ft 8d8 thunder DC19 stun. Soul Resonance 1/day. Harmonic Shield: adv vs charm/fear/psychic. 2/day each: Fly, Invisibility, Levitate, Prot Energy, Cure 3rd, Dispel.</text>
+</trait>
+<trait>
+<name>Resonance Key</name>
+<text>Amplified Inspiration 1/day: d20+10. Amplified Crescendo 1/day: 120ft 12d8 stun 2 rounds. Fifth speaks words.</text>
+</trait>
+<spell><name>Vicious Mockery</name></spell>
+<spell><name>Minor Illusion</name></spell>
+<spell><name>Mage Hand</name></spell>
+<spell><name>Prestidigitation</name></spell>
+<spell><name>Healing Word</name></spell>
+<spell><name>Faerie Fire</name></spell>
+<spell><name>Silvery Barbs</name></spell>
+<spell><name>Hold Person</name></spell>
+<spell><name>Suggestion</name></spell>
+<spell><name>Misty Step</name></spell>
+<spell><name>Hypnotic Pattern</name></spell>
+<spell><name>Counterspell</name></spell>
+<spell><name>Haste</name></spell>
+<spell><name>Aura of Vitality</name></spell>
+<spell><name>Greater Invisibility</name></spell>
+<spell><name>Dimension Door</name></spell>
+<spell><name>Find Greater Steed</name></spell>
+<spell><name>Hold Monster</name></spell>
+<spell><name>Greater Restoration</name></spell>
+<spell><name>Mass Suggestion</name></spell>
+<spell><name>Forcecage</name></spell>
+<spell><name>Glibness</name></spell>
+<spell><name>Mind Blank</name></spell>
+<spell><name>Foresight</name></spell>
+</character>
+</compendium>
